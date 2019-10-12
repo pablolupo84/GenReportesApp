@@ -1,0 +1,21 @@
+/*******************************************************************************/
+Generación de reporte desde Csv y Mysql
+
+Descripción:
+Tengo un archivo csv en el cual están específicados números de teléfono, 
+fecha de llamadas y dígito presionado dentro de un ivr; 
+necesito generar un reporte en csv, donde se especifique cuanto tiempo habló 
+el usuario con el agente y cuanto tiempo duró la llamada.
+
+/*******************************************************************************/
+
+Se trata de un reporte en base a un archivo csv que se genera desde asterisk, 
+lo que requiero es que con el número de celular que se extrae desde el CSV, 
+se especifique en el reporte con qué agente habló, y cuánto tiempo duró la llamada, 
+el resultado se puede generar en un nuevo CSV, no hay necesidad de que se envíe
+a una página web ni nada por el estilo. Siendo más específicos, el archivo CSV 
+tiene la siguiente información: teléfono, fecha, opción marcada por el usuario
+Se requiere que se extraiga el teléfono y la fecha, y de la base de datos se 
+consulte con qué agente se comunicó, cuanto tiempo duró la llamada, y se genere 
+un nuevo archivo csv con lo siguiente: agente, duración, teléfono, fecha, opción
+
